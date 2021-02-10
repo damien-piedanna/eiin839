@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "EchoServer": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "HTTP_ROOT": "C:\\Users\\Nociv\\source\\repos\\eiin839\\www\\public\\test\\"
+      }
+    }
+  }
+}
