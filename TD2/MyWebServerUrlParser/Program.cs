@@ -9,6 +9,7 @@ using System.Diagnostics;
 
 //url call = http://localhost:8081/MyMethods/MyMethod/?param1=Damien&param2=Allan
 //url external call = http://localhost:8081/MyExternalCall/MyMethod/?param1=Damien&param2=Allan
+//url webservice incr = http://localhost:8081/Webservice/Incr/?param1=5
 
 namespace MyWebServerUrlParser
 {
@@ -17,6 +18,15 @@ namespace MyWebServerUrlParser
         public string MyMethod(string[] args)
         {
             return "<HTML><BODY> Salut " + args[0] + " et " + args[1] + " (MyMethods)</BODY></HTML>";
+        }
+    }
+    class Webservice
+    {
+        public string Incr(string[] args)
+        {
+            int val = int.Parse(args[0]);
+            val++;
+            return "{ \"success\":true,\"result\":" + val.ToString() + "}";
         }
     }
     class MyExternalCall
@@ -159,6 +169,7 @@ namespace MyWebServerUrlParser
                 byte[] buffer = System.Text.Encoding.UTF8.GetBytes(responseString);
                 // Get a response stream and write the response to it.
                 response.ContentLength64 = buffer.Length;
+                if(segments[1].TrimEnd('/') == "Webservice") response.ContentType = "application/json";
                 System.IO.Stream output = response.OutputStream;
                 output.Write(buffer, 0, buffer.Length);
                 // You must close the output stream.
