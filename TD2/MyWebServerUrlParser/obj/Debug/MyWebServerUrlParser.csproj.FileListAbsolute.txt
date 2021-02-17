@@ -1,0 +1,7 @@
+C:\Users\Nociv\source\repos\eiin839\TD2\MyWebServerUrlParser\obj\Debug\MyWebServerUrlParser.csprojAssemblyReference.cache
+C:\Users\Nociv\source\repos\eiin839\TD2\MyWebServerUrlParser\obj\Debug\MyWebServerUrlParser.csproj.CoreCompileInputs.cache
+C:\Users\Nociv\source\repos\eiin839\TD2\MyWebServerUrlParser\bin\Debug\MyWebServerUrlParser.exe.config
+C:\Users\Nociv\source\repos\eiin839\TD2\MyWebServerUrlParser\bin\Debug\MyWebServerUrlParser.exe
+C:\Users\Nociv\source\repos\eiin839\TD2\MyWebServerUrlParser\bin\Debug\MyWebServerUrlParser.pdb
+C:\Users\Nociv\source\repos\eiin839\TD2\MyWebServerUrlParser\obj\Debug\MyWebServerUrlParser.exe
+C:\Users\Nociv\source\repos\eiin839\TD2\MyWebServerUrlParser\obj\Debug\MyWebServerUrlParser.pdb

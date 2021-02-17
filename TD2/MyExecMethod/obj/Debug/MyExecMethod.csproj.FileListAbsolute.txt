@@ -1,0 +1,6 @@
+C:\Users\Nociv\source\repos\eiin839\TD2\MyExecMethod\bin\Debug\MyExecMethod.exe.config
+C:\Users\Nociv\source\repos\eiin839\TD2\MyExecMethod\bin\Debug\MyExecMethod.exe
+C:\Users\Nociv\source\repos\eiin839\TD2\MyExecMethod\bin\Debug\MyExecMethod.pdb
+C:\Users\Nociv\source\repos\eiin839\TD2\MyExecMethod\obj\Debug\MyExecMethod.csproj.CoreCompileInputs.cache
+C:\Users\Nociv\source\repos\eiin839\TD2\MyExecMethod\obj\Debug\MyExecMethod.exe
+C:\Users\Nociv\source\repos\eiin839\TD2\MyExecMethod\obj\Debug\MyExecMethod.pdb

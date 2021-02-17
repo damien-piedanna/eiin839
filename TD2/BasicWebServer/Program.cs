@@ -1,27 +1,73 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Text;
-using System.Web;
 
-namespace BasicServerHTTPlistener
+namespace BasicWebServerUrlParser
 {
+    internal class Header
+    {
+        WebHeaderCollection webHeaderCollection;
+        private string accept;
+        private string acceptCharset;
+        private string acceptEncoding;
+        private string acceptLanguage;
+        private string allow;
+        private string authorization;
+        private string cookie;
+        private string from;
+        private string userAgent;
+        public Header(WebHeaderCollection headerCollection)
+        {
+            this.webHeaderCollection = headerCollection;
+            this.accept = this.webHeaderCollection.Get("Accept");
+            this.acceptCharset = this.webHeaderCollection.Get("Accept-Charset");
+            this.acceptEncoding = this.webHeaderCollection.Get("Accept-Encoding");
+            this.acceptLanguage = this.webHeaderCollection.Get("Accept-Language");
+            this.allow = this.webHeaderCollection.Get("Allow");
+            this.authorization = this.webHeaderCollection.Get("Authorization");
+            this.cookie = this.webHeaderCollection.Get("Cookie");
+            this.from = this.webHeaderCollection.Get("From");
+            this.userAgent = this.webHeaderCollection.Get("User-Agent");
+        }
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder("");
+            sb.Append("== Headers ==\n");
+            if (this.accept != null) sb.Append("Accept : " + this.accept + "\n");
+            if (this.acceptCharset != null) sb.Append("Accept Charset : " + this.acceptCharset + "\n");
+            if (this.acceptEncoding != null) sb.Append("Accept Encoding : " + this.acceptEncoding + "\n");
+            if (this.acceptLanguage != null) sb.Append("Accept Language : " + this.acceptLanguage + "\n");
+            if (this.allow != null) sb.Append("Allow : " + this.allow + "\n");
+            if (this.authorization != null) sb.Append("Authorization : " + this.authorization + "\n");
+            if (this.cookie != null) sb.Append("Cookie : " + this.cookie + "\n");
+            if (this.from != null) sb.Append("From : " + this.from + "\n");
+            if (this.userAgent != null) sb.Append("User Agent : " + this.userAgent + "\n");
+            sb.Append("=============\n");
+            return sb.ToString();
+        }
+    }
     internal class Program
     {
         private static void Main(string[] args)
         {
 
-            //if HttpListener is not supported by the Framework
+
             if (!HttpListener.IsSupported)
             {
                 Console.WriteLine("A more recent Windows version is required to use the HttpListener class.");
                 return;
             }
- 
- 
+
             // Create a listener.
             HttpListener listener = new HttpListener();
+
+            // Trap Ctrl-C and exit 
+            Console.CancelKeyPress += delegate
+            {
+                listener.Stop();
+                System.Environment.Exit(0);
+            };
 
             // Add the prefixes.
             if (args.Length != 0)
@@ -41,27 +87,19 @@ namespace BasicServerHTTPlistener
                 Console.WriteLine("Syntax error: the call must contain at least one web server url as argument");
             }
             listener.Start();
-
-            // get args 
             foreach (string s in args)
             {
                 Console.WriteLine("Listening for connections on " + s);
             }
-
-            // Trap Ctrl-C on console to exit 
-            Console.CancelKeyPress += delegate {
-                // call methods to close socket and exit
-                listener.Stop();
-                listener.Close();
-                Environment.Exit(0);
-            };
-
 
             while (true)
             {
                 // Note: The GetContext method blocks while waiting for a request.
                 HttpListenerContext context = listener.GetContext();
                 HttpListenerRequest request = context.Request;
+                Header header = new Header((WebHeaderCollection)request.Headers);
+                Console.WriteLine(header);
+
 
                 string documentContents;
                 using (Stream receiveStream = request.InputStream)
@@ -71,38 +109,7 @@ namespace BasicServerHTTPlistener
                         documentContents = readStream.ReadToEnd();
                     }
                 }
-                
-                // get url 
                 Console.WriteLine($"Received request for {request.Url}");
-
-                //get url protocol
-                Console.WriteLine(request.Url.Scheme);
-                //get user in url
-                Console.WriteLine(request.Url.UserInfo);
-                //get host in url
-                Console.WriteLine(request.Url.Host);
-                //get port in url
-                Console.WriteLine(request.Url.Port);
-                //get path in url 
-                Console.WriteLine(request.Url.LocalPath);
-
-                // parse path in url 
-                foreach (string str in request.Url.Segments)
-                {
-                    Console.WriteLine(str);
-                }
-
-                //get params un url. After ? and between &
-
-                Console.WriteLine(request.Url.Query);
-
-                //parse params in url
-                Console.WriteLine("param1 = " + HttpUtility.ParseQueryString(request.Url.Query).Get("param1"));
-                Console.WriteLine("param2 = " + HttpUtility.ParseQueryString(request.Url.Query).Get("param2"));
-                Console.WriteLine("param3 = " + HttpUtility.ParseQueryString(request.Url.Query).Get("param3"));
-                Console.WriteLine("param4 = " + HttpUtility.ParseQueryString(request.Url.Query).Get("param4"));
-
-                //
                 Console.WriteLine(documentContents);
 
                 // Obtain a response object.
@@ -118,7 +125,7 @@ namespace BasicServerHTTPlistener
                 // You must close the output stream.
                 output.Close();
             }
-            // Httplistener neither stop ... But Ctrl-C do that ...
+            // Httplistener neither stop ...
             // listener.Stop();
         }
     }

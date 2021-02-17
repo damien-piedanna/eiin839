@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MyExecMethod": {
+      "commandName": "Project",
+      "commandLineArgs": "Damien Allan"
+    }
+  }
+}
