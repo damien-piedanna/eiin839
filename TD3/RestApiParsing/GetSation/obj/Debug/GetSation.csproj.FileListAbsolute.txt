@@ -1,0 +1,17 @@
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetSation\obj\Debug\GetSation.exe.config
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetSation\obj\Debug\GetSation.csproj.CoreCompileInputs.cache
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetSation\bin\Debug\GetSation.exe.config
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetSation\bin\Debug\GetSation.exe
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetSation\bin\Debug\GetSation.pdb
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetSation\bin\Debug\System.Memory.dll
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetSation\bin\Debug\System.Text.Json.dll
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetSation\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetSation\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetSation\bin\Debug\System.Buffers.dll
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetSation\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetSation\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetSation\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetSation\obj\Debug\GetSation.csprojAssemblyReference.cache
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetSation\obj\Debug\GetSation.csproj.CopyComplete
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetSation\obj\Debug\GetSation.exe
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetSation\obj\Debug\GetSation.pdb

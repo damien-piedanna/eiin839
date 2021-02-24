@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\TD1",
-    "\\TD1\\Echo",
-    "\\TD1\\Echo\\ChatServer"
+    "\\TD3"
   ],
-  "SelectedNode": "\\TD1\\Echo\\ChatServer\\Program.cs",
+  "SelectedNode": "\\TD3",
   "PreviewInSolutionExplorer": false
 }

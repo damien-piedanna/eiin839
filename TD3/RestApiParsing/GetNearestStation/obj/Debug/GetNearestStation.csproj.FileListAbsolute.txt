@@ -1,0 +1,17 @@
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetNearestStation\bin\Debug\GetNearestStation.exe.config
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetNearestStation\bin\Debug\GetNearestStation.exe
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetNearestStation\bin\Debug\GetNearestStation.pdb
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetNearestStation\bin\Debug\System.Memory.dll
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetNearestStation\bin\Debug\System.Text.Json.dll
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetNearestStation\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetNearestStation\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetNearestStation\bin\Debug\System.Buffers.dll
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetNearestStation\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetNearestStation\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetNearestStation\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetNearestStation\obj\Debug\GetNearestStation.csprojAssemblyReference.cache
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetNearestStation\obj\Debug\GetNearestStation.exe.config
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetNearestStation\obj\Debug\GetNearestStation.csproj.CoreCompileInputs.cache
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetNearestStation\obj\Debug\GetNearestStation.csproj.CopyComplete
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetNearestStation\obj\Debug\GetNearestStation.exe
+C:\Users\Nociv\source\repos\eiin839\TD3\RestApiParsing\GetNearestStation\obj\Debug\GetNearestStation.pdb
