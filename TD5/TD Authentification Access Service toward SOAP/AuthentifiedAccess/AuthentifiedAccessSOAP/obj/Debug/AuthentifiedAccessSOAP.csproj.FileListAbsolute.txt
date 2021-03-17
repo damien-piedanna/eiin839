@@ -1,0 +1,10 @@
+C:\Users\Nociv\source\repos\eiin839\TD5\TD Authentification Access Service toward SOAP\AuthentifiedAccess\AuthentifiedAccessSOAP\obj\Debug\AuthentifiedAccessSOAP.csprojAssemblyReference.cache
+C:\Users\Nociv\source\repos\eiin839\TD5\TD Authentification Access Service toward SOAP\AuthentifiedAccess\AuthentifiedAccessSOAP\obj\Debug\AuthentifiedAccessSOAP.csproj.CoreCompileInputs.cache
+C:\Users\Nociv\source\repos\eiin839\TD5\TD Authentification Access Service toward SOAP\AuthentifiedAccess\AuthentifiedAccessSOAP\bin\Debug\AuthentifiedAccessSOAP.dll.config
+C:\Users\Nociv\source\repos\eiin839\TD5\TD Authentification Access Service toward SOAP\AuthentifiedAccess\AuthentifiedAccessSOAP\bin\Debug\AuthentifiedAccessSOAP.dll
+C:\Users\Nociv\source\repos\eiin839\TD5\TD Authentification Access Service toward SOAP\AuthentifiedAccess\AuthentifiedAccessSOAP\bin\Debug\AuthentifiedAccessSOAP.pdb
+C:\Users\Nociv\source\repos\eiin839\TD5\TD Authentification Access Service toward SOAP\AuthentifiedAccess\AuthentifiedAccessSOAP\obj\Debug\AuthentifiedAccessSOAP.dll
+C:\Users\Nociv\source\repos\eiin839\TD5\TD Authentification Access Service toward SOAP\AuthentifiedAccess\AuthentifiedAccessSOAP\obj\Debug\AuthentifiedAccessSOAP.pdb
+C:\Users\Nociv\source\repos\eiin839\TD5\TD Authentification Access Service toward SOAP\AuthentifiedAccess\AuthentifiedAccessSOAP\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nociv\source\repos\eiin839\TD5\TD Authentification Access Service toward SOAP\AuthentifiedAccess\AuthentifiedAccessSOAP\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Nociv\source\repos\eiin839\TD5\TD Authentification Access Service toward SOAP\AuthentifiedAccess\AuthentifiedAccessSOAP\obj\Debug\AuthentifiedAccessSOAP.csproj.CopyComplete

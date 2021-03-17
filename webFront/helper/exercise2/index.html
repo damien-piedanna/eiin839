@@ -15,7 +15,7 @@
     <div id="apiKeyBlock">
         <!-- The "for" attribute of a label is linked to the id of an input -->
         <label for="apiKey">API key:</label>
-        <input name="apiKeyInput" id="apiKey">
+        <input name="apiKeyInput" id="apiKey" value="a0dbd529c92077bf289fd7bee14fd1b6f0002eae">
     </div>
 
 
@@ -41,6 +41,10 @@
         <label for="longitudeChoice">Longitude</label>
         <input id="longitudeChoice">
         <button onclick="getClosestStation();">Get closest station</button>
+    </div>
+
+    <div>
+        <h2>Closest station : <span id="closestStation"></span></h2>
     </div>
 
     <!-- Let's load the JS file.

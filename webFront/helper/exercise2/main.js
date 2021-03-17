@@ -59,7 +59,8 @@ function getClosestStation() {
             bestDistance = distance;
         }
     });
-    console.log(bestStation.name + " (" + bestDistance + ")");
+
+    document.getElementById("closestStation").innerHTML = bestStation.name + " (" + bestDistance + ")";
 }
 
 function getDistanceFrom2GpsCoordinates(lat1, lon1, lat2, lon2) {
